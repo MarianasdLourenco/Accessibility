@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/ico-16.ico">
+        <title>.: MARIANA LOURENÇO :.</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+    </head>
+    <body id="inicio" onload="iniciarLocalStorage()">
+        <nav class="acessibilidade">
+            <ul id="atalhos">  
+                <li></li>
+                <li><a href="#inicio" id="acs-inicio" accesskey="1" title="Alt 1">Inicio</a></li>  
+                <li><a href="#sobre" accesskey="2" title="Alt 2">Ir sobre</a></li>  
+                <li><a href="#experiencia" accesskey="3" title="Alt 3">Ir experiência</a></li>  
+                <li><a href="#rodape" accesskey="4" title="Alt 4">Ir rodapé</a></li>  
+                <li class="bandeira" title="Seleção idiomas">
+                    <a href="#" language='portugues' class="ativo">PT</a>
+                    <a href="#" language='english'>EN</a>
+                    <a href="#" language='espanhol'>ES</a>
+                    <a href="#" language='deutsch'>AL</a>
+                </li>
+                <li>
+                    <div class="azul" title="Troca Cor Azul" aria-hidden="true"></div>
+                    <div class="vermelho" title="Troca Cor Vermelha" aria-hidden="true"></div>
+                    <div class="verde" title="Troca Cor Verde" aria-hidden="true"></div>
+                    <div class="marrom" title="Troca Cor Marrom" aria-hidden="true"></div>
+                </li>
+                <li>
+                    <div class="mais" title="Aumenta Fonte (ALT +)" aria-hiddnen="true" accesskey="+"></div>
+                    <div class="normal" title="Tamanho 100%" aria-hidden="true" accesskey="0"></div>
+                    <div class="menos" title="Diminui Fonte (ALT -)" aria-hiddnen="true" accesskey="-"></div>
+                    <div class="toggle" title="Contraste (ALT T)" aria-hiddnen="true" accesskey="T"></div>
+                </li>
+            </ul> 
+            <div vw class="enabled" title="Assistente de Libras">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                  <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>            
+        </nav>
+        <section class="sec">
+            <div class="container">
+                <div class="left_side" tabindex="0">
+                    <div class="profileText" title="Dados Pessoais" tabindex="0">
+                        <div class="imgBx">
+                            <img src="img/foto.png" alt="Foto de Mariana Lourenço">
+                        </div>
+                        <h2 title="Nome">Mariana Lourenço</br><span title="Profissão" id="profissao">Estudante Universitário</span></h2>
+                        <ul class="sci" title="Midias Sociais">
+                            <li><a href="https://www.facebook.com/mariana.lourenco.79069323"><i class="fa fa-facebook" aria-hiddnen="true" title="Facebook"></i></a></li>
+                            <li><a href="https://github.com/MarianasdLourenco"><i class="fa fa-github" aria-hiddnen="true" title="Github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/mariana-l-a62557207/"><i class="fa fa-linkedin" aria-hiddnen="true" title="Linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="contactInfo" tabindex="1">
+                        <h3 class="title" id='contato'>Contato</h3>
+                        <ul>
+                            <li>
+                                <span class="icon"><i class="fa fa-phone" aria-hidden="true" title="Telefone"></i></span>
+                                <span class="text">+55 16 997227057</span> 
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true" title="e-mail"></i></span>
+                                <span class="text"> mariana.lourenco@fatec.sp.gov.br </span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-globe" aria-hidden="true" title="website"></i></span>
+                                <span class="text">www.marianalourenço.pro.br</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contactInfo education" tabindex="2">
+                        <h3 class="title" id="educacao">Educação</h3>
+                        <ul>
+                            <li>
+                                <h5 title="Ano Inicial e Final">2010-2017</h5>
+                                <h4 title="Fundamental">Ensino Fundamental</h4>
+                                <h4 title="Escola">EM Adelino Bordignon</h4>
+                            </li>
+                            <li>
+                                <h5 title="Ano Inicial e Final">2018-2020</h5>
+                                <h4 title="Ensino Médio">Técnico em Informática Para Internet Integrado ao Ensino Médio</h4>
+                                <h4 title="Escola">Etec Sylvio de Mattos Carvalho</h4>
+                            </li>
+                            <li>
+                                <h5 title="Ano Inicial e Final">2021-2023</h5>
+                                <h4 title="Graduação">Sistemas para Internet</h4>
+                                <h4 title="Escola">Fatec Taquaritinga</h4>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contactInfo language" tabindex="3">
+                        <h3 class="title" id="idiomas">Idiomas</h3>
+                        <ul>
+                            <li>
+                                <span class="text">Inglês</span>
+                                <span class="percent"><div style="width: 50%;" title="50%"></div></span>
+                            </li>
+                            <li>
+                                <span class="text">Espanhol</span>
+                                <span class="percent"><div style="width: 50%;" title="50%"></div></span>
+                            </li>
+                            <li>
+                                <span class="text">Português</span>
+                                <span class="percent"><div style="width: 100%;" title="100%"></div></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right_side" tabindex="1">
+                    <div class="about">
+                        <h2 class="title2" id="sobre">Sobre</h2>
+                        <p id="textosobre" title="textosobre" class="textosobre">Olá, sou Mariana! Estudante de Sistemas para Internet, apaixonada por programação, 
+                            entrei na Etec em 2018 onde pude aprofundar meus conhecimento na área, 
+                            gosto de asssustos relacionados a programação Web, bancos de dados, PHP e Design.
+                        estou sempre fazendo e aprendendo algo novo, pretendo aprofundar meus estudos em Bancos de dados e Web Design. </p>
+                    </div>
+                    <div class="about">
+                        <h2 class="" id=""></h2>
+                        <div class="">
+                            <ul class="">
+                            </ul>
+                            <div class="" title="">
+                            </div>
+                        </div>                            
+                        <div class="">
+                            <ul class="">
+                            </ul>
+                            <div class="" title="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <ul class="">
+                            </ul>
+                            <div class="" title="">
+                            </div>
+                        </div>                            
+                    </div>
+                    <div class="about">
+                        <h2 class="title2" id="voluntariado">Voluntariado</h2>
+                        <div class="">
+                            <ul class="">
+                            </ul>
+                            <div class="text" title="">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <ul class="year_company">
+                                <li title="Ano Inicio e Final">2018-2019</li>
+                                <li title="Empresa"><h5>Círculo de leitura (Voluntário)</h5></li>
+                            </ul>
+                            <div class="text" title="Função exercida">
+                                <h4>Etec Sylvio de Mattos Carvalho</h4>
+                                <p id="textosobre1" title="textosobre1" class="textosobre1"> programa realizado pela Etec que visa promover a importância da leitura, 
+                                    trabalhando o emocional e senso crítico dos alunos, 
+                                    são realizadas reuniões semanalmente para realizar a leitura dos livros e debater os temas abordados  </p>
+                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about skills">
+                        <h2 class="title2" id="skills">Habilidades</h2>
+                        <div class="box">
+                            <h4>Programação Web</h4>
+                            <div class="percent"><div style="width: 93%;" title="93%"></div></div>
+                        </div>
+                        <div class="box">
+                            <h4>Sistemas Operacionais</h4>
+                            <div class="percent"><div style="width: 50%;" title="50%"></div></div>
+                        </div>
+                        <div class="box">
+                            <h4>Programação</h4>
+                            <div class="percent"><div style="width: 70%;" title="70%"></div></div>
+                        </div>
+                        <div class="box">
+                            <h4>Web Design</h4>
+                            <div class="percent"><div style="width: 70%;" title="70%"></div></div>
+                        </div>
+                        <div class="box">
+                            <h4> Banco de Dados</h4>
+                            <div class="percent"><div style="width: 60%;" title="60%"></div></div>
+                        </div>
+                        <div class="box">
+                            <h4>Otimização para Buscas</h4>
+                            <div class="percent"><div style="width: 40%;" title="40%"></div></div>
+                    </div>
+                    <div class="about interest">
+                        <h2 class="title2" id="interesses">Interesses</h2>
+                        <ul>
+                            <li><i class="fa fa-globe" aria-hidden="true"></i><br/>Viagens</li>
+                            <li><i class="fa fa-book" aria-hidden="true"></i><br/>Leitura</li>
+                            <li><i class="fa fa-soccer-ball-o" aria-hidden="true"></i><br/>Esportes</li>
+                            <li><i class="fa fa-film" aria-hidden="true"></i><br/>Series</li>
+                            <li><i class="fa fa-gamepad" aria-hidden="true"></i><br/>Jogos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav class="rodape" id="rodape">
+            
+        </nav>
+        <script src="funcoes.js"></script>        
+        <script src="lingua.js"></script>        
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+
+            const sec = document.querySelector('.sec');
+            const acs = document.querySelector('.acessibilidade');
+            const rod = document.querySelector('.rodape');
+
+            const toggle = document.querySelector('.toggle');
+            const menos = document.querySelector('.menos');
+            const mais = document.querySelector('.mais');
+            const normal = document.querySelector('.normal');
+
+            const azul = document.querySelector('.azul');
+            const vermelho = document.querySelector('.vermelho');
+            const verde = document.querySelector('.verde');
+            const marrom = document.querySelector('.marrom');
+
+            toggle.onclick = function() {
+                sec.classList.toggle('dark');
+                acs.classList.toggle('dark');
+                rod.classList.toggle('dark');
+            }
+            mais.onclick = function() {
+                javascript:mudaTamanho('section', +1);
+            }
+            menos.onclick = function() {
+                javascript:mudaTamanho('section', -1);
+            }
+            normal.onclick = function() {
+                javascript:mudaTamanho('section', 0);
+            }
+
+            azul.onclick = function() {
+                javascript:mudaCor('azul');
+            }
+            vermelho.onclick = function() {
+                javascript:mudaCor('vermelho');
+            }
+            verde.onclick = function() {
+                javascript:mudaCor('verde');
+            }
+            marrom.onclick = function() {
+                javascript:mudaCor('marrom');
+            }
+
+        </script>
+    </body>
+</html>
